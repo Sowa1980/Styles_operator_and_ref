@@ -1,5 +1,5 @@
 #  Styles_forestry and quarters
-Стиль для [JOSM](https://josm.openstreetmap.de/), служит для отображения номеров лесных кварталов и лесничест.
+Стиль для [JOSM](https://josm.openstreetmap.de/), служит для отображения значений тегов operator, ref, в центре полигона рядом с точкой"
 ![icon](https://github.com/Sowa1980/Styles_operator_and_ref/blob/main/operator_and_ref.png)
 
 ### Установка
