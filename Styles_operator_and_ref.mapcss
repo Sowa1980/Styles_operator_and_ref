@@ -1,0 +1,54 @@
+
+meta
+{
+  title: "operator and ref";
+  author: ""Sowa1980, Панкратов Александр Владимирович";
+  version: "1.00_2021-12-08";
+  description: "Explicitly shows tags like operator, ref in center of area, node";
+}
+
+meta[lang=ru] {
+  title: "Отображение оператора и номера";
+  description: "Выводит значение тегов operator, ref, в центре полигона рядом с точкой";
+}
+
+area[ref]
+{
+  text:"ref";
+  text-color: Red;
+  font-size: 12;
+  text-offset-y: ;
+  text-position: center;
+  text-halo-radius: 3;
+  text-halo-color: white;
+}
+area[operator]::tt
+{
+  text:"operator";
+  text-color: Orange;
+  font-size: 12;
+  text-offset-y: -45;
+  text-position: center;
+  text-halo-radius: 3;
+  text-halo-color: white;
+} 
+node[ref]
+{
+  text:"ref";
+  text-color: Red;
+  font-size: 12;
+  text-offset-y: ;
+  text-position: center;
+  text-halo-radius: 3;
+  text-halo-color: white;
+}
+node[operator]::tt
+{
+  text:"operator";
+  text-color: Orange;
+  font-size: 12;
+  text-offset-y: -45;
+  text-position: center;
+  text-halo-radius: 3;
+  text-halo-color: white;
+} 
